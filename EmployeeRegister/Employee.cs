@@ -8,7 +8,7 @@ namespace EmployeeRegister
 {
     // This class represents an employee with a name and salary.
     // and used to create employee objects for the EmployeeRegistry.
-    internal class Employee
+    public class Employee
     {
         public string Name { get; set; }
         public decimal Salary { get; set; }

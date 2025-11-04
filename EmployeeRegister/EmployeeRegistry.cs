@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeRegister
 {
-    internal class EmployeeRegistry
+    public class EmployeeRegistry
     {
         // list to store employee objects
         private List<Employee> employees = new List<Employee>();
